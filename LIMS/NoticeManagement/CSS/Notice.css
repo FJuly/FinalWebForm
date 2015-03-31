@@ -1,0 +1,232 @@
+﻿body {
+     background:#fff;
+     font: normal 12px Verdana;
+}
+.nav {
+    width: 1013px;
+    height:525px;
+    background:#fff;
+    margin:0 auto;
+}
+.center {
+    width:960px;
+    height:525px;
+    border:1px solid #F5F5F5;
+    background:#ECECEC;
+    margin:0px auto ;
+    margin-top:1px;
+}
+
+.toolbar {
+    width: 960px;
+    height: 32px;
+    /*border: 1px solid red;*/
+    border-top: none;
+    border-bottom:  1px solid #d1d1d1;
+    background: #EBEBEB;
+    border-left: none;
+    border-right: none;
+    margin: 0px auto;
+}
+.list {
+
+     width:936px;
+     height:25px;
+     /*border:1px solid red;*/
+     margin-top:20px;
+}
+.list > a {
+    color: #2C4A77;
+    margin-left: 20px;
+    float: left;
+    height: 21px;
+}
+.list > input {
+         width:840px;
+         float:left;
+         height:20px;
+         margin-left:5px;
+    }
+
+.per {
+    width:840px;
+    height:46px;
+    float:left;
+    border:1px solid #d1d1d1;
+    margin-left:5px;
+    background:#fff;  
+}
+.per a {
+        padding: 5px;
+        display: inline-block;
+        text-decoration: none;
+        color: #494949;
+    }
+.text {
+    width:936px;
+    height:359px;
+    /*border:1px solid red;*/
+    margin-top:20px;
+
+}
+/*.text-area {
+       border:1px solid red;
+}*/
+
+.person {
+     /*border:1px solid red;*/
+     margin-left:18px;
+     height:25px;
+     width:50px;
+     float:left;
+}
+    /*.person > span {
+         font-weight:bold;
+    }*/
+
+.text  textarea {
+    /*margin-left:30px;*/
+    width:836px;
+    height:315px;
+    resize:none;
+}
+
+
+/*添加联系人css代码*/
+
+.recevier {
+    width: 479px;
+    height: 454px;
+    border: 1px solid #d1d1d1;
+    -webkit-border-radius: 5px;
+    /*-webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;*/
+    z-index: 1002;
+}
+.title {
+      height:36px;
+      width:100%;
+      /*border:1px solid red;*/
+      /*border-bottom:1px solid #d1d1d1;*/
+      /*-webkit-border-top-left-radius:5px;
+      -webkit-border-top-right-radius:5px;*/
+      background-color:#EAEAEA;
+}
+
+.context {
+     height:380px;
+     width:100%;
+     border:1px solid  #d1d1d1;
+     border-left:none;
+     border-right:none;
+     background-color:#FFFFFF;
+}
+.bottom {
+    height: 32px;
+    width:100%;
+    /*border:1px solid red;*/
+}
+.tab {
+    /*border:1px solid red;*/
+     background-color:#FFFFFF;
+}
+
+.tab td {
+    /*border: 1px solid black;*/
+}
+.contact {
+    border:1px solid  #d1d1d1;
+    height:99%;
+    width:99%;
+    margin-right:10px;
+    margin-bottom:0px;
+}
+
+#tb  td {
+          /*border: 1px solid black;*/
+          display:block;
+          margin-top:8px;
+}
+#tb a {
+    color:#494949;
+     text-decoration:none;
+     display:inline-block;
+     width:171px;
+     height:27px
+  
+}
+
+#tb a:hover {
+          background:#FFEEC2;
+    }
+
+#tb-selected {
+    background-color:#FFFFFF;
+}
+
+#tb-selected td{
+    margin-left:10px;
+    display:block;
+    margin-top:8px;
+}
+
+#tb-selected a {
+    color: #494949;
+    text-decoration: none;
+    display:inline-block;
+    width:171px;
+    height: 27px;
+}
+
+#tb-selected a:hover {
+        background: #FFEEC2;
+    }
+
+.bottom {
+    border:1px solid #d1d1d1;
+    height:35px;
+    width:100%;
+    border-right:none;
+    border-left:none;
+    background-color:#EAEAEA;
+    border-top:none ;
+}
+.btn {
+    float:right;
+    margin-right: 12px;
+    height:25px;
+    width:52px;
+    margin-top:4px ;
+
+}
+
+
+.mask 
+{
+    background-color: rgb(0, 0, 0);
+    display:none;
+    opacity: 0.7; /* Safari, Opera */
+    -moz-opacity:0.70; /* FireFox */
+    filter: alpha(opacity=70); /* IE */
+    z-index: 1001;
+    height: 100%;
+    width: 100%;
+    background-repeat:repeat;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.center-person
+{
+    /*left:50%;
+    top:50%;*/
+    /*margin-left:-500px;
+    margin-top:-300px;*/
+}
+                      
+.hidden {
+    position:absolute;
+    left:-100000px
+}

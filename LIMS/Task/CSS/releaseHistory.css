@@ -1,0 +1,48 @@
+﻿body {
+    margin:0px auto;
+    width:100%;
+    padding:0px;
+    font-size:14px;
+}
+a:link { 
+color: #0083C5; 
+text-decoration: none; 
+} 
+a:visited {  
+color: #0083C5; 
+text-decoration: none; 
+} 
+a:hover { 
+color: #999999; 
+text-decoration: underline; 
+} 
+
+.task-table {
+    width:1000px;
+    border:1px solid #FFFFFF;
+    border-collapse:collapse;
+    margin:0px auto;
+    padding:0px;
+    font-size:14px;
+}
+
+
+.task-table tr:first-child {
+    border-bottom: 2px solid #787878
+}
+
+    .task-table tr th {
+        text-align:center;
+        background-color: #dce9f9;
+    }
+
+    .task-table tr th, td {
+        border:1px solid #FFFFFF;
+        padding-bottom:4px;
+        margin:0px;
+        text-align: center;
+    }
+    .task-table tr td {
+        text-align: center;
+        background-color: #E4E5E5;
+    }

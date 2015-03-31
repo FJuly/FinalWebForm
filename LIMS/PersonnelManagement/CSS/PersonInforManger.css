@@ -1,0 +1,116 @@
+﻿body {
+    background:#ECECEC;
+}
+
+.div-center{
+    border:1px solid #d1d1d1;
+    width:500px;
+    height:510px;
+    /*margin-left:230px;*/
+    background:#fff;
+    float:left
+}
+.divleft,.divleftone{
+    border:1px solid #d1d1d1;
+    background:#fff;
+    width:500px;
+    height:252px;
+    float:left;
+    margin-left:10px;
+}
+.divleftone {
+    height:240px;
+    margin-top:15px;
+}
+.ul-nav {
+   /*border:1px solid red;*/
+   height:420px;
+   margin-top:0;
+   list-style:none;
+   margin-bottom:0px;
+}
+.ul-nav li {
+    border:1px solid #d1d1d1;
+    margin-top:5px;
+    border-right:none;
+    height:27px;
+    }
+.ul-nav span {
+     font-size:15px;
+     display:inline-block;
+     margin-left:50px;
+     margin-top:5px;
+     /*border:1px solid red;*/
+}
+.ul-span {
+    width:100px;
+}
+.divtitle {
+    /*border:1px solid #d1d1d1;*/
+    width:100%;
+    height:28px;
+    margin-top:0px;
+    background:#fff;
+    border-radius:3px;
+}
+.divtitle button {
+    float:right;
+    height:28px;
+    border:1px solid #0D4F87;
+    background:#1D6BAE;
+    color:white;
+    border-radius:3px;
+    width:60px;
+}
+
+.divtitle span {
+     /*border:1px red solid;*/
+     display:inline-block;
+     font-weight:bold;
+     font-size:15px;
+     padding-top:7px;
+     margin-left:5px;
+}
+.ulnav-one {
+    height:160px;
+}
+
+.ulnav-one li {
+    margin-top:13px;
+}
+.divtitleone {
+    /*margin-left:230px;*/
+    width:1013px;
+    margin-bottom:10px;
+    /*margin-top:5%;*/
+}
+#divguide {
+    width:30%;
+    height:200px;
+    margin-left:2px;
+    float:left;
+}
+#divintro {
+     height:240px;
+     width:345px;
+     float:left;
+     overflow:hidden;
+
+}
+#divintro span {
+         width:330px;
+         height:197px;
+         margin:2px;
+         border:1px solid #bdc7d8;
+         margin-left:6px;
+         font-size:15px;
+         display:inline-block;
+         line-height:1.5
+}
+#nav {
+     height:530px;
+     width:1020px;
+     margin-left:5%;
+     margin-top:40px;
+     margin:20px auto;
+}

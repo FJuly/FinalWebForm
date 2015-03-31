@@ -1,0 +1,120 @@
+﻿body {
+}
+
+#DivArea {
+    width: 1000px; 
+    height: 500px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#divTitle {
+    float: left;
+    background-color:white;
+    width:1000px;
+    height:40px
+}
+
+    #divTitle h2 {
+        float:left;
+        margin-top:10px; 
+        font-family: 宋体;
+    }
+
+#projsubmit {
+    float: right;
+    margin-top:2px; 
+    height: 25px; 
+    border: 1px solid #0D4F87; 
+    background: #1D6BAE; 
+    color: white; 
+    border-radius: 3px; 
+    width: 59px; 
+    text-align: center;
+    padding-top: 8px;
+}
+ /*-----------------------------------项目信息-------------------------------------*/
+#DivProjInfo {
+    float: left; 
+    width: 400px; 
+    height: 260px; 
+    margin-top: 20px; 
+    background-color: white
+}
+
+#spitbar {
+    width: 380px; 
+    height: 2px; 
+    background-color: #40626E; 
+    float: left;
+}
+
+#t_projinfo {
+    width: 400px; 
+    height: 220px; 
+    border-collapse: collapse; 
+    margin: 0px; 
+    padding: 0px;
+}
+
+#projparti {
+    width:580px;
+    height:80px;
+    float:left;
+    margin-top: 20px; 
+    margin-left: 20px;
+    background-color:white;
+}
+
+
+/*----------------------------------------------项目成员--------------------------------------------------*/
+#showParti {
+    margin-left:20px;
+    width:530px;
+    height:auto;
+    resize:none;
+}
+
+#DivProfile {
+    width:580px;
+    height:176px;
+    float:left;
+    margin-top: 5px; 
+    margin-left: 20px;
+    background-color:white;
+}
+
+
+/*---------------------------------------------------项目简介-------------------------------------------*/
+#DivProfile{
+    width:580px;
+    height:176px;
+    float:left;
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color:white;
+}
+
+    #DivProfile textarea{
+        height:120px;
+        width:530px;
+        margin-left:20px;
+        resize:none;
+    }
+
+/*---------------------------------------------------项目备注-------------------------------------------*/
+#DivProjMark {
+    float: left; 
+    width: 1000px;
+    height: 90px;
+    margin-top: 20px;
+    background-color: white
+}
+
+    #DivProjMark textarea{
+        height: 40px; 
+        width: 960px;
+        margin-left:10px;
+        resize:none;
+    }
+

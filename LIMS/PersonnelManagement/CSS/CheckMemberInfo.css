@@ -1,0 +1,13 @@
+﻿body {
+    background:#ECECEC;
+    padding:0;
+    margin:0;
+}
+
+#checkinformation-div {
+    border:1px solid #d1d1d1;
+    margin:0 auto;
+    width:1000px;
+    height:569px; 
+    background:#fff;
+}

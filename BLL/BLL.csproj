@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{78576037-A4BC-49C6-8208-36D9B251AD95}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLL</RootNamespace>
+    <AssemblyName>BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interface\IActitviy.cs" />
+    <Compile Include="Interface\IApproveAplication.cs" />
+    <Compile Include="Interface\IDevelopmentTask.cs" />
+    <Compile Include="Interface\IEnterCEO.cs" />
+    <Compile Include="Interface\IEnterOtherDuty.cs" />
+    <Compile Include="Interface\IEnterpriseProj.cs" />
+    <Compile Include="Interface\IEvaluateTask.cs" />
+    <Compile Include="Interface\IMemberInformation.cs" />
+    <Compile Include="Interface\INotice.cs" />
+    <Compile Include="Interface\IPersonalProj.cs" />
+    <Compile Include="Interface\IProjTask.cs" />
+    <Compile Include="Interface\IProjElite.cs" />
+    <Compile Include="Interface\IReleaseLectureTask.cs" />
+    <Compile Include="Interface\IStudyTask.cs" />
+    <Compile Include="Interface\ITechnicalBackbone.cs" />
+    <Compile Include="Interface\IWorkProj.cs" />
+    <Compile Include="Operator\CActivityOprate.cs" />
+    <Compile Include="Operator\CEnterDuty.cs" />
+    <Compile Include="Operator\CInformationManger.cs" />
+    <Compile Include="Operator\CLoginAndRegister.cs" />
+    <Compile Include="Operator\CNotice.cs" />
+    <Compile Include="Operator\CProject.cs" />
+    <Compile Include="Operator\CPromote.cs" />
+    <Compile Include="Operator\CTaskOperate.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Role\CActivityLeader.cs" />
+    <Compile Include="Role\CActivityMember.cs" />
+    <Compile Include="Role\CAdmin.cs" />
+    <Compile Include="Role\CCEO.cs" />
+    <Compile Include="Role\CIntern.cs" />
+    <Compile Include="Role\COfficialMember.cs" />
+    <Compile Include="Role\CProjectLeader.cs" />
+    <Compile Include="Role\CStudyLeader.cs" />
+    <Compile Include="Role\CStudyMember.cs" />
+    <Compile Include="Role\CTechnicalBackbone.cs" />
+    <Compile Include="Role\CTechnologyLeader.cs" />
+    <Compile Include="Role\CTreasurer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{3b9d0d46-2363-4b36-9f24-4dd46b484f05}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{041dd55a-3840-439b-9fb7-b862bff3df9f}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{1b577237-b9ae-45b9-a673-882d62ae691e}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

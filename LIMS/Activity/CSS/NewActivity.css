@@ -1,0 +1,124 @@
+﻿
+/*------------------------------林志章-------------------------------------*/
+body {
+    font-size:12px;
+}
+
+#total {
+    width:1000px;
+    height:485px;
+    background-color:#ECECEC;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    padding-top:5px;
+    padding-left:10px;
+    font-size:12px;
+    border:1px solid #C0C0C0;
+}
+
+#d_head1 {
+    height:30px;
+    /*width:850px;*/
+    background-color:white;
+    margin-top:5px;
+    /*margin-left:10px;*/
+    margin-right:10px;
+    padding:0;
+    /*padding-left:10px;
+    padding-bottom:10px;*/
+    /*line-height:40px;*
+    /*float:left;*/
+    
+}
+
+#sp_title {
+    display:inline-block;
+    font-size:15px;
+    font-weight:bold;
+    padding-top:7px;
+    padding-left:5px;
+}
+
+#d_table1 {
+    float:left;
+    background-color:#ECECEC;
+    width:450px;
+    height:370px;
+    /*margin-top:10px;*/
+    /*border-radius:7px;
+    border:1px solid #C0C0C0;*/
+}
+
+#table {
+    width:430px;
+    height:370px;
+    background-color:white;
+    margin-top:13px;
+    margin-left:10px;
+    border-radius:7px;
+    border:1px solid #C0C0C0;
+}
+
+.t_span {
+    float:right;
+    padding-right:10px;
+}
+
+.t_ipt {
+    font-size:12px;
+    width:220px;
+}
+
+#d_content {
+    height:175px;
+    width:520px;
+    background-color:#ECECEC;
+    float:left;
+    margin-left:10px;
+    margin-top:10px;
+    padding-left:10px;
+    padding-top:5px;
+}
+
+#d_remark {
+    height:175px;
+    width:520px;
+    background-color:#ECECEC;
+    float:left;
+    margin-left:10px;
+    margin-top:10px;
+    padding-left:10px;
+    padding-top:5px;
+}
+
+.texta {
+    width:500px;
+    height:150px;
+    margin-top:5px;
+    font-size:12px;
+}
+
+.btn-sbmit {
+    width: 90px;
+    height: 35px;
+    margin-left: 300px;
+    margin-top:10px;
+    font-size:12px;
+    border:1px solid #0D4F87;
+    background:#1D6BAE;
+    color:white;
+    border-radius:5px;
+}
+
+.btn-cancel {
+    width: 90px;
+    height: 35px;
+    margin-left: 100px;
+    margin-top:10px;
+    font-size:12px;
+    border:1px solid #0D4F87;
+    background:#1D6BAE;
+    color:white;
+    border-radius:5px;
+}

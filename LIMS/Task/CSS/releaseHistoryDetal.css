@@ -1,0 +1,81 @@
+﻿body {
+    width:1000px;
+    margin:0px auto;
+    padding:0px;
+}
+
+#tb-detail {
+    border:1px solid #787878;
+    border-collapse:collapse;
+    margin:0px;
+    padding:0px;
+    text-align:left;
+    font-size:12px;
+}
+
+    #tb-detail tr td {
+        margin:0px;
+        padding-bottom:5px;
+        padding-top:4px;
+        border:1px solid #ffffff;
+        border-left:1px solid #787878;
+        border-right:1px solid #787878;
+        /*text-align:start;IE不认*/
+        text-align:left;
+        font-size:14px;
+    }
+
+.td-title {
+    width:190px;
+    background:#dce9f9;    
+    padding-left:10px;
+    text-align:start;
+}
+.td-content {
+    background: #E4E5E5;
+    width:810px;
+    padding-left:8px;
+}
+
+
+/***************返回列表按钮**************************************/
+#return-list {
+    color:#787878;
+    margin-left:860px;
+    margin-top:20px;
+    font-size:16px;
+    text-decoration: none; 
+}
+    #return-list:hover {
+        color: #999999;
+    }
+
+/***************接收人列表样**************************************/
+#tb-member-list {
+    margin:0px auto;
+    padding:0px;
+    border:1px solid #354D70;
+    border-collapse:collapse;
+}
+
+    #tb-member-list tr:first-child {
+        border-bottom:2px solid #787878;
+    }
+
+    #tb-member-list tr th {
+        text-align:center;
+        background-color: #dce9f9;
+    }
+
+    #tb-member-list tr th, td {
+        border:1px solid #C8CFDA;
+        padding-bottom:4px;
+        margin:0px;
+        text-align: center;
+        font-size:12px;
+        height:18px;
+    }
+    #tb-member-list tr td {
+        text-align: center;
+        background-color: #E4E5E5;
+    }

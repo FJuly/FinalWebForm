@@ -1,0 +1,283 @@
+﻿/*----------------------王顺的代码-------------------------------*/
+body {
+    background:#ECECEC;
+}
+
+
+
+/***************************************编辑******************************************/
+#DivEdit {
+    background-color:white;
+    width:1000px;
+    height:35px;
+    text-align:left;
+    margin-bottom:0px;
+    border-radius:3px;
+    float:left
+}
+
+#divEditTitle {
+    font-size:larger;
+    padding-top:5px;
+    padding-left:5px;
+    font-family:宋体;
+    float:left;
+    font-weight:600
+}
+
+#projEdit,#projSave{
+    float:right;
+    height:25px;
+    border:1px solid #0D4F87;
+    background:#1D6BAE;
+    color:white;
+    border-radius:3px;
+    width:59px;
+    text-align:center;
+    padding-top:8px;
+    display:block
+}
+    #projEdit:hover,#projSave:hover {
+        opacity:0.8;
+    }
+/***************************************编辑******************************************/
+
+
+
+
+
+/*************************************项目截图*****************************************/
+#showphoto {
+    width:1000px;
+    height:50px;
+    margin-top:10px; 
+    float:left; 
+    text-align:center;
+    background-color:white;
+}
+
+    #showphoto h2 {
+        margin:0px;
+    }
+
+#showphotoicon{
+        width:16px;
+        height:16px;
+        margin-left:490px;
+        background:#FFF url('http://localhost:8330/JS/easyUI/themes/gray/images/accordion_arrows.png') no-repeat right 0;
+        opacity:0.5;         
+    }
+
+    #showphotoicon:hover {
+        background:#E2E2E2 url('http://localhost:8330/JS/easyUI/themes/gray/images/accordion_arrows.png') no-repeat right 0;
+        border-radius:2px;   
+        opacity:1.0;         
+    }
+
+#projphoto {
+    width:1000px;
+    margin-top:5px;
+    float:left;
+    background-color:white;
+    display:none
+}
+
+    #projphoto div {
+        width:600px;
+        height:400px;
+        float:left;
+        margin-left:200px;
+        margin-top:20px
+    }
+
+    #projphoto div img {
+        width:600px;
+        height:400px;
+    }
+
+/*编辑界面的项目截图*/
+#editprojphoto {
+    width:1000px;
+    height:350px;
+    float:left;
+    background-color:white;
+    position:relative;
+}
+#t_projphoto {
+    margin:0px;
+    padding:0px;
+    border-collapse:collapse;
+}
+    #t_img div {
+        width:250px;
+        height:250px;
+        float:left;
+        margin-left:62px;
+        margin-top:30px;
+        /*border:1px solid red;*/
+        border-radius:5px;
+        background-color:#ECECEC;
+    }
+
+        #projimg1,#projimg2,#projimg3 {
+            width:240px;
+            height:220px;
+            margin-left:5px;
+            margin-top:15px
+        }
+#t_upload input{
+    position:relative;
+    height:35px;
+    width:70px;
+    opacity:0;
+    top:0px;
+    left:-70px
+}
+.uploadimg {
+    float:left;
+    height:35px;
+    border:1px solid #0D4F87;
+    background:#1D6BAE;
+    color:white;
+    border-radius:3px;width:70px;
+    margin-left:150px;
+    padding:0px;
+}
+
+
+
+/************************************项目截图******************************************/
+
+
+
+
+/************************************项目基本信息**************************************/
+#DivProjInfo {
+    width:400px;
+    height:270px;
+    float:left;
+    margin-top:20px;
+    background-color:white
+}
+
+#divprojinfo {
+    width:380px;
+    height:2px;
+    background-color:#C3C3C3;
+    float:left;
+}
+
+#projtable {
+    margin:0px;
+    padding:0px;
+    width:390px;
+    height:214px;
+    border-collapse:collapse;
+    margin-left:10px
+}
+
+#projbaseinfo,#e_projbaseinfo {
+    background-color:white;
+    /*border:1px solid #C0C0C0;*/
+    height:214px;
+    padding-top:5px;
+    padding-left:10px;
+    margin-left:5px;
+    margin-right:5px;
+}
+    #projbaseinfo input {
+        width:200px;
+        color:#808080;
+    }
+    #e_projbaseinfo input{
+        width:200px;
+    }
+ 
+/************************************项目基本信息*************************************/
+
+
+/*************************************项目成员****************************************/
+#e_projreceive,#v_projreceive{
+    width:575px;
+    height:80px;
+    border:1px solid white;
+    float:right;
+    margin-top:20px;
+    background-color:white;
+}
+
+    #v_projreceive textarea {
+        color:#808080;
+    }
+
+    #e_projreceive textarea,#v_projreceive textarea {
+        width:550px;
+        height:30px;
+        float:left;
+        margin-left:10px;
+        outline:none;
+        resize:none;
+    }
+/*************************************项目成员****************************************/
+
+/************************************项目简介*****************************************/
+#projprofile,#e_projprofile {
+    width:575px;
+    height:183px;
+    border:1px solid white;
+    float:right;
+    margin-top:5px;
+    background-color:white;
+}
+    #projprofile textarea {
+        color:#808080;
+    }
+    #projprofile textarea,#e_projprofile textarea {
+        width:550px;
+        height:120px;
+        float:left;
+        margin-left:10px;
+        outline:none;
+        resize:none;
+    }
+/************************************项目简介*****************************************/
+
+
+
+
+/************************************项目备注*****************************************/
+#projmark,#e_projmark {
+    width:998px;
+    height:100px;
+    border:1px solid white; 
+    float:left;
+    margin-top:20px;
+    background-color:white;
+}
+    #projmark textarea {       
+        color:#808080;
+    }
+    #projmark textarea, #e_projmark textarea {
+        width:950px;
+        height:50px;
+        margin-left:20px;
+        outline:none;
+        resize:none;
+    }
+/************************************项目备注*****************************************/
+
+
+
+/************************************项目进度*****************************************/
+#t_projplan {
+    width:998px;
+    height:auto;
+    border:1px solid #C0C0C0;
+    float:left;
+    display:block;
+    margin-top:10px
+}
+
+
+
+/************************************项目进度*****************************************/

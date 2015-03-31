@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B9D0D46-2363-4B36-9F24-4DD46B484F05}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivityInfoDAL.cs" />
+    <Compile Include="ActivityParticipationDAL.cs" />
+    <Compile Include="ActivityTypeDAL.cs" />
+    <Compile Include="DetailProjInformationDAL.cs" />
+    <Compile Include="DutyActDAL.cs" />
+    <Compile Include="DutyInformationDAL.cs" />
+    <Compile Include="InviteCodeDAL.cs" />
+    <Compile Include="MemberInformationDAL.cs" />
+    <Compile Include="NoticeDAL.cs" />
+    <Compile Include="NoticeReceiveDAL.cs" />
+    <Compile Include="PermissionInformationDAL.cs" />
+    <Compile Include="ProjectInformationDAL.cs" />
+    <Compile Include="ProjectParticipationDAL.cs" />
+    <Compile Include="ProjectPhaseDAL.cs" />
+    <Compile Include="ProjectPhotoDAL.cs" />
+    <Compile Include="ProjectTypeDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelectDuty.cs" />
+    <Compile Include="TaskInformationDAL.cs" />
+    <Compile Include="TaskParticipationDAL.cs" />
+    <Compile Include="TaskTypeDAL.cs" />
+    <Compile Include="TechnicalDirectionDAL.cs" />
+    <Compile Include="TechnicaLevelDAL.cs" />
+    <Compile Include="VTaskInformationDAL.cs" />
+    <Compile Include="V_MemberInformationDAL.cs" />
+    <Compile Include="V_ProjectInformationDAL.cs" />
+    <Compile Include="V_SeeActivityInfoDAL.cs" />
+    <Compile Include="V_TaskInformationDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{041dd55a-3840-439b-9fb7-b862bff3df9f}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{1b577237-b9ae-45b9-a673-882d62ae691e}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
